@@ -1,3 +1,52 @@
-# Proj_Des_Web_Clinica_Idoso
-Proposta: Nossa proposta é a criação de um site de uma clínica voltada para idosos. O projeto consiste em produzir uma estrutura acolhedora e informativa centrada em serviços médicos e produtos voltados aos idosos e ao mesmo tempo transmitir confiança aos familiares e aos próprios idosos. A descrição do serviço médico se desdobra em acompanhamento médico regular, gestão de medicamentos, fisioterapia e nutrição personalizada. Outra parte importante do site consite em apresentar um espaço de apresentação de atividades recreativas e de socialização, como aulas de ginástica, terapias ocupacionais, jogos e eventos culturais, que estimulam a saúde mental e emocional dos idosos.A proposta traz ainda um breve apresentação da infraestrutura da clinica com quartos confortáveis, áreas comuns acessíveis e jardins, etc. E, por fim, apresentaremos uma seção de depoimentos de usuários para transmitir credibilidade e confiança.
-Participantes: (1) Alessandro José de Oliveira, (2) Danilo Luz, (3) Diego Gustavo de Carvalho Souza, (4) João Alexande
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<h1 class="titulo">BEM-VINDO À TECHSAÚDE </h1>
+<form action="https://webhook.site/817cf85a-1e75-44cc-88c9-1c45d55491fa" target="_blank">
+<fieldset>
+<legend>Nome Completo</legend> <input title="Nome" id="Nome" name="Nome" type="text" placeholder="Nome Completo" size="50"/><br/>
+</fieldset>
+<fieldset>
+<legend>Data de Nascimento</legend> <input title="Data" id="Data" name="Data" type="date" placeholder="xx/xx/xxxx" size="14"/><br/>
+</fieldset>
+<fieldset>
+<legend>Sexo</legend> <input type="radio" id="Masculino" name="Sexo" value="masculino"/>
+<label for="Masculino">Masculino</label></br>
+<input type="radio" id="Feminino" name="Sexo" value="feminino" />
+<label for="Feminino">Feminino</label></br>
+</fieldset>
+<fieldset>
+<legend>Endereço</legend> <input title="Endereço" id="Endereço" name="Endereço" type="text" placeholder="Endereço" size="50"/><br/>
+</fieldset>
+<fieldset>
+<legend>Telefone</legend> <input title="Telefone" id="Telefone" name="Telefone" type="tel" placeholder="Telefone" size="16"/><br/>
+</fieldset>
+<fieldset>
+<legend>Nome Familiar ou Responsável</legend> <input title="Familiar_nome" id="Familiar_nome" name="Familiar_nome" type="text" placeholder="Familiar ou Responsável" size="26"/><br/>
+</fieldset>
+<fieldset>
+<legend>Telefone Familiar ou Responsável</legend> <input title="Familiar_ctt" id="Familiar_ctt" name="Familiar_ctt" type="tel" placeholder="Telefone" size="26"/><br/>
+</fieldset>
+<fieldset>
+<legend>Usa Algum Medicamento</legend>
+<input type="radio" id="Sim_med" name="Medicamento" value="sim"/>
+<label for="Sim_med">Sim</label></br>
+<input type="radio" id="Nao_med" name="Medicamento" value="nao"/>
+<label for="Nao_med">Não</label></br>
+      Quais:<input title="Historico" id="Historico" name="Historico" type="text" placeholder="Medicamentos" size="50"/><br/>
+</fieldset>
+<fieldset>
+<legend>Histórico Médico</legend> <input title="Historico" id="Historico" name="Historico" type="text" placeholder="Histórico" size="50"/><br/>
+</fieldset>
+<fieldset>
+<legend>Nome Médico</legend> <input title="Nome_med" id="Nome_med" name="Nome_med" type="text" placeholder="Nome do Médico" size="26"/><br/>
+</fieldset></br>
+<button type="submit">
+Cadastrar
+</button>
+</form>
+</body>
+</html>
