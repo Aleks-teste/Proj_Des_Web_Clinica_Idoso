@@ -8,6 +8,9 @@
 
 body {
     background-color: #f4f4f9;
+    background-image: url('caminho_para_imagem_fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     color: #333;
 }
 
