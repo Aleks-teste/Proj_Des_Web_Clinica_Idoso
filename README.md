@@ -13,6 +13,7 @@
         <div class="banner-header">
             <h1>TechSaúde</h1>
         </div>
+        <img src="imagem/logo TEC SAUDE.jpg"
         <nav class="menu">
             <button>HOME</button>
             <button>DICA DOS PROFISSIONAIS</button>
