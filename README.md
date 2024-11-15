@@ -25,8 +25,7 @@
     <!-- Seção com Imagem e Banner de Texto -->
     <section class="main-content">
         <div class="image-column">
-            <img src="![image](https://github.com/user-attachments/assets/bcb54590-3b50-481c-81ea-0743d2f161aa)
-" 
+            <img src="imagem/imagem central pg inicial enfermeiro.jpg" 
         </div>
         <div class="banner-text">
             <p><strong>Vida longa, com qualidade</strong></p>
