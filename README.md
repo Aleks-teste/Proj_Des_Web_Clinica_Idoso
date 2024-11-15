@@ -24,7 +24,7 @@
     <!-- Seção com Imagem e Banner de Texto -->
     <section class="main-content">
         <div class="image-column">
-            <img src="imagem/imagem central pg inicial enfermeiro.jpg" alt="Enfermeira em Atendimento">
+            <img src="imagem/imagem central pg inicial enfermeiro.jpg" 
         </div>
         <div class="banner-text">
             <p><strong>Vida longa, com qualidade</strong></p>
