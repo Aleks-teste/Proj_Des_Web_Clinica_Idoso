@@ -4,13 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
- 
-        h1 {
-            font-size: 50px; 
+    font-size: 50px; 
         }
-   
-}
-
+  
 body {
     background-color: #f4f4f9;
     background-image: url('imagem/fundo.jpg');
